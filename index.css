@@ -1,0 +1,150 @@
+
+/*@import "compass";*/
+@import "https://fonts.googleapis.com/css?family=Ubuntu:400";
+@import url("https://fonts.googleapis.com/css?family=Lobster");
+
+body {
+    margin: 0px;
+}
+
+.fontstandard {
+    font-family: Inter,Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.stable {
+  position: absolute;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-between;
+}
+
+.blokade {
+  position: absolute;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.start {
+    position: relative;
+}
+
+#statiskstart {
+    width: 550px;
+    height: 729px;
+    border: 2px solid black;
+    background-color: #F4F4F4;
+}
+
+.box {
+    position: absolute;
+}
+
+#topbox {
+    left: 0px;
+    top: 0px;
+    width: 550px;
+    height: 285px;
+    background-color: #6943FF;
+}
+
+#title {
+    width: 448.4px;
+    top: 33px;
+    color: #FFFFFF;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing:-3px;
+}
+
+.centered {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#numbertoconvert {
+    top: 101px;
+    border: solid 2px #B295FF;
+    border-radius: 5px;
+}
+#numbertoconvert, #numbertoconvert > input {
+    width: 117px;
+    height: 83px;
+}
+
+#numbertoconvert > input {
+    font-weight: 900;
+    font-size: 58px;
+    line-height: 24.4px;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    color: #FFFFFF;
+    overflow-y: hidden;
+}
+
+
+.innidiv {
+    width: 100%;
+    height: 100%;
+}
+
+#convertbutton {
+    width: 117px;
+    height: 42px;
+    top: 209px;
+    
+}
+
+#convertbutton > button {
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    border: none;
+    
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.measures {
+    width: 500px;
+    height: 108.57px;
+    background-color: #FFFFFF;
+}
+
+
+#length {
+    top: 321px;
+}
+
+#volume {
+    top: 453px;
+}
+
+#mass {
+    top: 585px;
+}
+
+.Stortekst, .litentekst {
+    width: 100%;
+    text-align: center;
+} 
+
+.Stortekst {
+    top: 31px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #5A537B;
+}
+
+.litentekst {
+    top: 65px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #353535;
+}
